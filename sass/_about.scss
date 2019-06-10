@@ -1,0 +1,46 @@
+.about-me {
+    width: 80%;
+    margin: 0 auto 3rem;
+    padding: 0 3rem 1rem;
+
+    @media screen and (min-width: 850px) {
+        width: 70%;
+    }
+
+    @media screen and (min-width: 1000px) {   
+        width: 60%;
+    }
+
+    @media screen and (min-width: 1200px) {    
+        width: 70rem;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 80rem;
+    }
+
+    .statement {
+        font-family: $font-heading;
+        font-size: 2.5rem;
+		color: #333;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 3rem;
+        }
+    }
+
+    .about-content {
+        padding: 2rem 0;
+    }
+
+    .my-photo {
+        margin-bottom: 3rem;
+
+        .me {
+            padding: 1px;
+            border: 1px solid $color-primary-dark;
+        }
+    }
+}
+
+

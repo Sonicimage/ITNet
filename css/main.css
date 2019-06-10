@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	background-image: url("../img/banner.png");
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #0E5080;
+}
+
+.nav-link {
+	color: #E8EBEF;
+	text-transform: uppercase;
+}
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.nav-link:hover {
+	color: #60C6FF;
+}
+
+.nav-item {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #E8EBEF;
+}
+
+.dropdown-item {
+	color: #E8EBEF;
+	text-transform: uppercase;
+	background-color: #0E5080;
+}
+
+.dropdown-item:hover {
+	background-color: #0E5080;
+	color: #60C6FF;	
+}
+.dropdown-menu {
+	background-color: #0E5080;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	line-height: 1;
+	width: 100%;
+}
+
+.navbar-brand img {
+	margin-left: 20px;
+}
+.row1 {
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.logo {
+	background-color: rgba(255,255,255,0.80);
+	-webkit-box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
+	margin-top: 60px;
+	padding: 10px;
+	margin-bottom: 60px;
+}
+
+h1 {
+	padding-top: auto;
+	padding-bottom: auto;
+	font-family: 'Kaushan Script', cursive;
+	color: #B36A00;
+	font-size: 4rem;
+	text-shadow: 1px 1px 1px #000000;
+	margin-top: 70px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button {
+	color: #E8EBEF;
+	text-transform: uppercase;
+}
+#statement {
+	font-family: 'Kaushan Script', cursive;
+	color: #B36A00;
+	margin-bottom: 30px;
+}
+h2 {
+	color: #055380;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.8rem;
+	font-weight: bolder;
+	margin-top: 0px;
+}
+h4 {
+	font-family: 'Roboto Slab', serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #B36A00;
+}
+
+.contact {
+	color: #ffffff;
+
+}
+.copyright {
+	color: #ffffff;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.icon {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h5 {
+	font-weight: bolder;
+	color: #B36A00;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.card {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.my-photo {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	border: thick solid #B36A00;
+	width: 100%;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.social {
+	background-color: #60C6FF;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.social:hover {
+	background-color: #7ACEFF;
+}
+
+#contact {
+	padding-top: 40px;
+	color: #E8EBEF;
+}
+
+.btn {
+	background-color: #B36A00;
+	color: #ffffff;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+i {
+	font-size: 1.5rem;
+	color: #E8EBEF;
+}
+footer {
+	margin-top: 60px;
+	background-color: #0E5080;
+	padding-top: 60px;
+	clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%);
+}
+#carouselExampleIndicators1 {
+	background-color: #7ACEFF;
+}
+
+
+
+
+@media screen and (min-width:360px){
+
+.about-me {
+	width: 90%;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2rem;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+}
+
+@media screen and (min-width:576px){
+.card {
+	width: 90%;
+}
+.services {
+	margin: 0 auto;
+	width: 90%;
+}
+
+
+}
+
+@media screen and (min-width:768px){
+
+.about-me {
+	width: 80%;
+}
+h1 {
+	font-size: 3.5rem;
+}
+h2 {
+	font-size: 2.5rem;
+	margin-top: 70px;
+}
+.services {
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+	
+}
+
+
+@media screen and (min-width:992px){
+.about-me {
+	width: 70%;
+}
+h1 {
+	font-size: 3.7rem;
+}
+.services-text {
+	margin: 0 auto;
+	width: 80%;
+}
+#statement {
+	font-size: 2.4rem;
+}
+
+
+
+}
+
+@media screen and (min-width:1200px){
+.about-me {
+	width: 50%;
+}
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 2.8rem;
+	margin-bottom: 60px;
+	margin-top: 70px;
+}
+.card {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 40%;
+	margin-left: 1rem;
+}
+.services-text {
+	width: 90%;
+}
+
+
+}
